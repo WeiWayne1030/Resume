@@ -50,42 +50,33 @@ import { ref } from 'vue'
 const experiences = ref([
   {
     id: 1,
-    role: 'Senior Frontend Developer',
-    company: 'Tech Company A',
-    period: '2022 - Present',
-    description: '負責前端架構設計與核心功能開發',
+    role: 'Junior Software Engineer',
+    company: '承心科技',
+    period: '2024.11 - 2025.3',
+    description: '負責銀行系統前後端串接及開發',
     achievements: [
-      '重構主要產品前端架構，提升 40% 載入效能',
-      '建立元件庫與設計系統，提高開發效率',
-      '帶領 3 人前端團隊完成多個專案'
+      '完成銀行系統前後端串接及開發',
+      '環境建置及部署',
+      '建立元件, 撰寫串接前後端邏輯'
     ],
-    technologies: ['Vue 3', 'TypeScript', 'Vite', 'Tailwind CSS']
+    technologies: ['Angular 11', 'TypeScript', 'DotNet Core', 'Azure']
   },
   {
     id: 2,
-    role: 'Frontend Developer',
-    company: 'Startup B',
-    period: '2020 - 2022',
-    description: '參與產品從 0 到 1 的開發過程',
+    role: 'Software Engineer',
+    company: '中租控股有限公司',
+    period: '2025.5 - 2026.5',
+    description: '參與海外公版上線及維護, 台灣公版從 0 到 1 的相關規劃及開發過程',
     achievements: [
-      '開發響應式網頁應用，支援多種裝置',
-      '實作複雜的資料視覺化功能',
-      '優化 SEO 與網站效能'
+      '海外公版功能新增部署(Azure)及維護(K8S)',
+      '海外公版專案壓力測試(K6)',
+      'Angular 11-17 升級規劃',
+      'DotNet core 6-8 升級規劃',
+      '將Azure class mode 上的yaml利用Kostumize做bake重新上傳到yaml pipline',
+      '調整angular template 為 library 規劃及開發',
+      '環境建置及部署'
     ],
-    technologies: ['Vue 2', 'JavaScript', 'SCSS', 'Webpack']
-  },
-  {
-    id: 3,
-    role: 'Junior Frontend Developer',
-    company: 'Agency C',
-    period: '2019 - 2020',
-    description: '協助開發客戶網站與內部工具',
-    achievements: [
-      '完成 10+ 客戶專案',
-      '學習現代前端開發流程',
-      '參與團隊程式碼審查'
-    ],
-    technologies: ['HTML', 'CSS', 'JavaScript', 'jQuery']
+    technologies: ['Angular 11-17', 'TypeScript', 'DotNet Core 6-8', 'Azure DevOps', 'MSSQL Server', 'K6']
   }
 ])
 </script>

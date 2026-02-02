@@ -29,7 +29,7 @@
 <script setup>
 import { ref } from 'vue'
 
-const intro = ref('我是一位熱愛前端開發的工程師，專注於使用 Vue.js 和現代化工具打造優質的網頁應用。我相信良好的程式碼應該是可讀、可維護且易於擴展的。')
+const intro = ref('我是一位喜歡學習新事物的全端工程師，從前端的頁面規劃到後端的資料庫設計，再到部署的環境建置，都會讓自己不斷的去try and error, 不斷的去學習新的知識')
 
 const highlights = ref([
   {
@@ -55,6 +55,12 @@ const highlights = ref([
     icon: '🔧',
     title: '簡潔設計',
     description: '避免過度工程化，選擇簡單有效的解決方案'
+  },
+    {
+    id: 4,
+    icon: '🔧',
+    title: '效能優化及負載測試',
+    description: '優化效能及負載能力'
   }
 ])
 </script>

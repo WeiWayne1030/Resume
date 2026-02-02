@@ -20,9 +20,9 @@
 <script setup>
 import { ref } from 'vue'
 
-const name = ref('張三')
-const title = ref('Frontend Developer')
-const description = ref('專注於 Vue.js 與現代化前端開發，追求乾淨的程式碼與優秀的使用者體驗')
+const name = ref('孫御維')
+const title = ref('Fullstack Developer')
+const description = ref('專注於 Angular, DotNet Core與現代化前後端開發，追求乾淨的程式碼與優秀的使用者體驗')
 </script>
 
 <style scoped>

@@ -23,12 +23,6 @@
         </div>
       </div>
     </div>
-    
-    <footer class="footer">
-      <div class="container">
-        <p>&copy; 2026 Frontend Developer. Built with Vue 3 & ❤️</p>
-      </div>
-    </footer>
   </section>
 </template>
 
@@ -40,22 +34,22 @@ const contactLinks = ref([
     id: 1,
     icon: '📧',
     label: 'Email',
-    value: 'your.email@example.com',
-    url: 'mailto:your.email@example.com'
+    value: 'angel1425q@gmail.com',
+    url: 'https://angel1425q@gmail.com'
   },
   {
     id: 2,
     icon: '💼',
     label: 'LinkedIn',
-    value: 'linkedin.com/in/yourprofile',
-    url: 'https://linkedin.com'
+    value: 'linkedin.com/in/angel1425q',
+    url: 'https://linkedin.com/in/angel1425q'
   },
   {
     id: 3,
     icon: '📦',
     label: 'GitHub',
-    value: 'github.com/yourusername',
-    url: 'https://github.com'
+    value: 'github.com/WeiWayne1030',
+    url: 'https://github.com/WeiWayne1030'
   }
 ])
 </script>
