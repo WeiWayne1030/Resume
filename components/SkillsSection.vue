@@ -56,20 +56,20 @@ const skillCategories = ref([
     skills: [
       { id: 1, name: 'Node.js', level: 90 },
       { id: 2, name: 'Express', level: 85 },
-      { id: 3, name: 'DotNetCore', level: 70 }
-    ]
-  },
-  {
-    id: 2,
-    icon: '🎨',
-    name: '樣式與設計',
-    skills: [
-      { id: 1, name: 'CSS/SCSS', level: 90 },
-      { id: 3, name: 'UI/UX Design', level: 70 }
+      { id: 3, name: 'DotNetCore', level: 80 }
     ]
   },
   {
     id: 3,
+    icon: '🎨',
+    name: '樣式與設計',
+    skills: [
+      { id: 1, name: 'CSS', level: 90 },
+      { id: 3, name: 'UI/UX Design', level: 70 }
+    ]
+  },
+  {
+    id: 4,
     icon: '🔨',
     name: '開發工具',
     skills: [
@@ -79,7 +79,10 @@ const skillCategories = ref([
       { id: 4, name: 'Azure DevOps', level: 80 },
       { id: 5, name: 'Kostumize', level: 80 },
       { id: 6, name: 'Docker', level: 80 },
-      { id: 7, name: 'Kubernetes', level: 80 },
+      { id: 7, name: 'MSSQL Server', level: 80 },
+      { id: 8, name: 'MySQL', level: 80 },
+      { id: 9, name: 'MongoDB', level: 80 },
+      { id: 10, name: 'SourceTree', level: 80 },
     ]
   },
   {
@@ -87,11 +90,12 @@ const skillCategories = ref([
     icon: '🧩',
     name: '其他技能',
     skills: [
-      { id: 1, name: 'Node.js', level: 70 },
       { id: 2, name: 'RESTful API', level: 80 },
       { id: 3, name: 'Responsive Design', level: 90 },
-      { id: 4, name: 'K8s', level: 70 },
+      { id: 4, name: 'Kubernetes', level: 80 },
       { id: 5, name: 'K6', level: 70 },
+      { id: 6, name: 'Lens', level: 70 },
+      { id: 7, name: 'Azure', level: 80 },
     ]
   }
 ])

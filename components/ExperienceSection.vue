@@ -52,20 +52,20 @@ const experiences = ref([
     id: 1,
     role: 'Junior Software Engineer',
     company: '承心科技',
-    period: '2024.11 - 2025.3',
+    period: '2023.11 - 2024.3',
     description: '負責銀行系統前後端串接及開發',
     achievements: [
       '完成銀行系統前後端串接及開發',
       '環境建置及部署',
       '建立元件, 撰寫串接前後端邏輯'
     ],
-    technologies: ['Angular 11', 'TypeScript', 'DotNet Core', 'Azure']
+    technologies: ['Angular 11', 'TypeScript', 'DotNet Core 6', 'Azure']
   },
   {
     id: 2,
     role: 'Software Engineer',
     company: '中租控股有限公司',
-    period: '2025.5 - 2026.5',
+    period: '2024.5 - 2026.5',
     description: '參與海外公版上線及維護, 台灣公版從 0 到 1 的相關規劃及開發過程',
     achievements: [
       '海外公版功能新增部署(Azure)及維護(K8S)',
@@ -74,9 +74,10 @@ const experiences = ref([
       'DotNet core 6-8 升級規劃',
       '將Azure class mode 上的yaml利用Kostumize做bake重新上傳到yaml pipline',
       '調整angular template 為 library 規劃及開發',
-      '環境建置及部署'
+      'Azure環境建置(CI)及部署(CD)',
+      'Lens監控及應用'
     ],
-    technologies: ['Angular 11-17', 'TypeScript', 'DotNet Core 6-8', 'Azure DevOps', 'MSSQL Server', 'K6']
+    technologies: ['Angular 11-17', 'TypeScript', 'DotNet Core 6-8', 'Azure DevOps', 'MSSQL Server', 'K6', 'Lens']
   }
 ])
 </script>

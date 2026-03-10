@@ -60,24 +60,15 @@ import { ref } from 'vue'
 const projects = ref([
   {
     id: 1,
-    name: 'E-Commerce Platform',
+    name: 'HerStory WebSite Frontend',
     emoji: '🛒',
     description: '完整的電商平台，包含購物車、結帳流程、會員系統等功能',
-    technologies: ['Vue 3', 'TypeScript', 'Pinia', 'Tailwind CSS'],
+    technologies: ['Vue 3', 'TypeScript', 'Pinia', 'Node.js', 'Express', 'MySQL','Kostumize', 'Docker'],
     demo: '#',
-    github: '#'
+    github: ['https://github.com/WeiWayne1030/HSWebSiteFronted', 'https://github.com/WeiWayne1030/HSWebsiteBackend']
   },
   {
     id: 2,
-    name: 'Task Management App',
-    emoji: '✅',
-    description: '任務管理應用，支援拖放操作、標籤分類、進度追蹤',
-    technologies: ['Vue 3', 'Vite', 'LocalStorage'],
-    demo: '#',
-    github: '#'
-  },
-  {
-    id: 3,
     name: 'Weather Dashboard',
     emoji: '🌤️',
     description: '即時天氣資訊儀表板，整合第三方 API 與資料視覺化',
@@ -86,7 +77,7 @@ const projects = ref([
     github: '#'
   },
   {
-    id: 4,
+    id: 3,
     name: 'Portfolio Website',
     emoji: '💼',
     description: '個人作品集網站，展示專案與技能',

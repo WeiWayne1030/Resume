@@ -50,6 +50,8 @@ coverage/
 
 # Testing
 .vite-inspect/
+playwright-report/
+test-results/
 
 # Misc
 *.tsbuildinfo

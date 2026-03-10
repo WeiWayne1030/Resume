@@ -36,19 +36,19 @@ const highlights = ref([
     id: 1,
     icon: '💡',
     title: '清晰思維',
-    description: '注重系統性思考，偏好結構化與長期可維護性'
+    description: '快速查找、處理並修復問題'
   },
   {
     id: 2,
     icon: '🎯',
-    title: 'Vibe First',
-    description: '先專注於感覺與使用者體驗，再深入實作細節'
+    title: '架構規劃',
+    description: '先專注於感覺與使用者體驗及流程，再深入實作細節'
   },
   {
     id: 3,
     icon: '🚀',
     title: '快速迭代',
-    description: '早期原型開發，快速驗證想法並持續改進'
+    description: '早期原型開發，先造輪子，快速驗證想法再做持續改進'
   },
   {
     id: 4,
@@ -57,7 +57,7 @@ const highlights = ref([
     description: '避免過度工程化，選擇簡單有效的解決方案'
   },
     {
-    id: 4,
+    id: 5,
     icon: '🔧',
     title: '效能優化及負載測試',
     description: '優化效能及負載能力'
